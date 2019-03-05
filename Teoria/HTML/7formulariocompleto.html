@@ -1,0 +1,92 @@
+<h1>Mándanos tu receta a través de este formulario
+
+<form action="procesar.html" method="post"> 
+    <div > 
+        <label>Nombre:</label>
+        <input type="text" required></input>  
+    </div>
+    <div > 
+        <label>Apellido:</label>
+        <input type="text"></input>   
+    </div>
+
+    <div>
+        <label>Fecha nacimiento:</label>
+        <input type="text" name="anyo" placeholder="yyyy"></input>
+        <input type="text" name="mes"  placeholder="mm"></input>
+        <input type="text" name="dia"  placeholder="dd"></input>
+    </div>
+
+    <div>
+        <label>Fecha nacimiento:</label>
+        <select name="anyo_s">
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+        </select>
+
+        <select name="mes_s">
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+        </select>
+        
+    </div>
+    
+
+    <div>
+        <label>receta vegetariana:</label>
+        <input type="checkbox" name="tiporeceta"></input>
+    </div>
+    <div>       
+        <label>receta vegana:</label>
+        <input type="checkbox" name="tiporeceta"></input>
+    </div>
+    
+    <div>       
+        <label>Sexo:</label>
+        Hombre <input type="radio" name="sexo"></input> 
+        Mujer <input type="radio" name="sexo"></input> 
+        Otro <input type="radio" name="sexo"></input> 
+    </div>
+
+    <div>       
+        <label>Pais:</label>
+        <select>
+            <option>Angola</option>
+            <option>Belgica</option>
+            <option selected="true">España</option>
+            <option>Francia</option>
+        </select>
+    </div>
+
+    <div>       
+        <label>Idiomas:</label>
+        <select multiple>
+            <option>Español</option>
+            <option>Ingles</option>
+            <option>Frances</option>
+            <option>Euskera</option>
+        </select>
+    </div>    
+
+    <div>       
+        <label>Comentario:</label>
+        <textarea rows="8" cols="50"></textarea>
+    </div>  
+    <div>
+        <input type= "submit" value="Guardar"></input>
+    </div>
+</form>

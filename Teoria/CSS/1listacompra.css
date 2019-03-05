@@ -1,0 +1,31 @@
+body {
+    color: black;
+}
+
+h1 {
+    color:red;
+    background-color: blue;
+    text-align: center;
+}
+
+p {
+    color:green;
+}
+
+#subtitulo1 {
+    color: purple;
+    background-color: yellow;
+    width: 600px;
+}
+
+.verduras {
+    color:green;
+}
+
+ul.lista1 {
+    list-style-type: upper-roman;
+}
+
+.lista1 {
+    font-size:40px;
+}
