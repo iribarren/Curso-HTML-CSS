@@ -1,0 +1,41 @@
+body{
+    width:850px;
+    font-family: 'Bree Serif', serif;
+    font-size:24px;
+    margin: 400px;
+
+    background-image: url("tapiz.png");
+}
+
+h1{
+    color:white;
+    background:yellowgreen;
+    text-align: center;
+    width:850px;
+    font-family: "Fredoka One", cursive;
+}
+
+h2 {
+    color:yellowgreen;
+    background-color: yellow;
+    text-align: center;
+    width:850px;
+    font-family: 'Luckiest Guy', cursive;'
+
+}
+
+
+.italic{
+  font-style: italic;   
+  background: GoldenRod;
+}
+
+ul {
+list-style:none; 
+width:400px;
+border-left:dotted 4px DarkOrange;
+border-right:dotted 4px DarkOrange; 
+background: GoldenRod;
+}
+
+  
